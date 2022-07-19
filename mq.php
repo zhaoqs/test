@@ -13,7 +13,7 @@ class MQ {
      *
      * 3.引入mq文件
      *
-     * define('EXTEND_PATH', '../vendor/autoload.php');del;
+     * define('EXTEND_PATH', '../vendor/autoload.php');
      * use PhpAmqpLib\Connection\AMQPStreamConnection;
      */
 
