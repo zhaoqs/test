@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 class MQ {
     /**
      * 1.安装php-amqplib 服务
@@ -20,8 +20,8 @@ class MQ {
 
     /**
      * MQ生产数据
-     * @param $queueName 队列名称
-     * @param $msg 发送数据
+     * @param $queueName
+     * @param $msg
      * @return
      */
     public function MqPublish($queueName, $msg = [])
